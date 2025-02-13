@@ -1,0 +1,6 @@
+package exemplos_java_mod7;
+
+public class Venda {
+
+	public int quantidade;
+}
