@@ -5,7 +5,6 @@ package br.com.leo.dao;
 
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
-
 import br.com.leo.dao.generic.GenericDAO;
 import br.com.leo.domain.Cliente;
 import br.com.leo.exceptions.DAOException;

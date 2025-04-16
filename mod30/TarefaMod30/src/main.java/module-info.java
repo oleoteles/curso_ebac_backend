@@ -4,7 +4,10 @@
 /**
  * 
  */
-module TarefaMod30 {
+module TarefaMod35 {
 	requires java.sql;
-	requires junit;
+	requires java.persistence;
+    requires junit;
+    opens br.com.leo to junit;
+    opens br.com.leo.domain;
 }
